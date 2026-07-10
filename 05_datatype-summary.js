@@ -31,3 +31,19 @@ let myObj = {
 const myFunction = function () {
     console.log("Hello");
 }
+
+
+
+
+// Stack(Primitive) and Heap(Non-Primitive) Memory
+
+let userOne = {
+    email : "user@gmail.com" ,
+    upi : "user@ybi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user2@gamil.com";
+console.log(userOne.email);
+console.log(userTwo.email);
